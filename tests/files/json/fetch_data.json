@@ -1,0 +1,14 @@
+{
+  "https://www.okadoc.com": {
+    "url": "https://www.okadoc.com",
+    "num_links": 18,
+    "num_images": 13,
+    "last_fetch": "2024-03-13T15:16:58.760262Z"
+  },
+  "https://www.wikipedia.com": {
+    "url": "https://www.wikipedia.com",
+    "num_links": 356,
+    "num_images": 1,
+    "last_fetch": "2024-03-13T15:16:58.070372Z"
+  }
+}
