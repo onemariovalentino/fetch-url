@@ -20,3 +20,4 @@ This is example fetch url via command line
     - run command `docker volume create app_volume` to create volume
     - run command `docker run --rm -v app_volume:/usr/bin/files app fetch {url} {url}...` to fetch multiple page
     - run command `docker run --rm -v app_volume:/usr/bin/files app fetch --metadata {url}` for url metadata
+    - you can check html and json files in `app_volume` in your docker desktop see volumes section
