@@ -6,7 +6,6 @@ import (
 	"log"
 	"os"
 
-	"github.com/onemariovalentino/fetch-webpage/src/app/fetch/models"
 	"github.com/onemariovalentino/fetch-webpage/src/pkg/di"
 	"github.com/spf13/cobra"
 )
@@ -19,7 +18,7 @@ type (
 
 var metadataFlag bool
 
-func New(metadata *map[string]*models.Metadata) *Command {
+func New() *Command {
 	services := di.New()
 
 	fetchCommand := &cobra.Command{
